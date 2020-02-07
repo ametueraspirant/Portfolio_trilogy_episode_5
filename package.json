@@ -1,0 +1,25 @@
+{
+  "name": "Portfolio_trilogy_episode_5",
+  "version": "1.0.0",
+  "description": "that's how trilogies work, right?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ametueraspirant/Portfolio_trilogy_episode_5.git"
+  },
+  "keywords": [],
+  "author": "Amet DeCrypt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ametueraspirant/Portfolio_trilogy_episode_5/issues"
+  },
+  "homepage": "https://github.com/ametueraspirant/Portfolio_trilogy_episode_5#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
