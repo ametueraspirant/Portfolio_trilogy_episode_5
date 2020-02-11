@@ -4,6 +4,16 @@ module.exports = function(app) {
 		res.render("index");
 	});
 
+	app.get("/development", function(req, res)
+	{
+		res.render("development");
+	});
+
+	app.get("/writing", function(req, res)
+	{
+		res.render("writing");
+	});
+
 	app.get("/projects", function(req, res)
 	{
 		res.render("projects");
