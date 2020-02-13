@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 const mongojs = require("mongojs");
 
-app.use(express.static("assets"));
+app.use(express.static("stuff/assets"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 

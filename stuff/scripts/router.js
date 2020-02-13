@@ -24,7 +24,7 @@ module.exports = function(app) {
 		res.render("blog");
 	});
 
-	app.get("/blogin", function(req, res)
+	app.get("/areallylongstringthatijustwonttellanyoneelsebecauseicantbebotheredtoauthenticatenow", function(req, res)
 	{
 		res.render("blogin");
 	});
