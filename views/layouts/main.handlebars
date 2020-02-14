@@ -3,15 +3,23 @@
 <head>
 	<meta charset="utf-8">
 	<script src="https://code.jquery.com/jquery.js"></script>
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/caladea" type="text/css"/> 
 	<link rel="stylesheet" href="/style/tailwind.css">
 	<link rel="stylesheet" href="/style/backupstyle.css">
 	<title>Serious Portfolio Title</title>
 </head>
 <body class = "bg-goldenrod">
-	<div class = "flex flex-col md:flex-row justify-between my-10 py-6 bg-salmon">
-		<h1></h1>
-		{{{body}}}
+	<div class = "flex flex-col lg:flex-row justify-around md:justify-between my-0 lg:my-12 p-4 bg-salmon">
+		<h1 class = "text-3xl">Placeholder Title</h1>
+		<div class = "flex flex-row">
+			<a href = "/" class = "text-lg leading-loose">portfolio</a>
+			<a href = "/development" class = "text-lg leading-loose ml-5">development</a>
+			<a href = "/writing" class = "text-lg leading-loose ml-5">writing</a>
+			<a href = "/projects" class = "text-lg leading-loose ml-5">projects</a>
+			<a href = "/blog" class = "text-lg leading-loose ml-5">blog</a>
+		</div>
 	</div>
+	{{{body}}}
 	<script type = "text/javascript" src = "/logic/click.js"></script>
 </body>
 </html>
