@@ -1,2 +1,3 @@
-# Portfolio_trilogy_episode_5
-that's how trilogies work, right?
+#Current main portfolio in progress. until I make the next version.
+
+heroku host [here](https://thawing-cliffs-11401.herokuapp.com/)
